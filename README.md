@@ -1,1 +1,2 @@
-# feed_report
+This project's main objective is to automate the generation and delivery of an analytical summary for an application's key metrics. By automating the reporting process, the project aims to save time and effort that would otherwise be spent manually compiling and sending the reports.
+The generated analytical summary will include essential metrics such as DAU (Daily Active Users), views, likes, and CTR (Click-Through Rate). These metrics provide valuable insights into the application's performance and user engagement. By regularly receiving these reports every morning through the Telegram channel, stakeholders will have access to up-to-date information about the application's performance and can make informed decisions based on the provided metrics.
