@@ -12,12 +12,12 @@ from io import StringIO
 from datetime import date
 from airflow.decorators import dag, task
 
-chat_id = -802518328
-my_token = '5505931949:AAEmb_WfLfF0ydF5327CaJjU932_DLNckKY'
+chat_id =
+my_token = ''
 bot = telegram.Bot(token=my_token) 
 
 # connecting to db
-def ch_get_df(query='Select 1', host='https://clickhouse.lab.karpov.courses', user='student', password='dpo_python_2020'):
+def ch_get_df(query='', host='', user='', password=''):
     r = requests.post(host, data=query.encode("utf-8"), auth=(user, password), verify=False)
     result = pd.read_csv(StringIO(r.text), sep='\t')
     return result
